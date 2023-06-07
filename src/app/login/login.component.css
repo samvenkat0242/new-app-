@@ -1,8 +1,18 @@
 .loginDiv {
-margin: 0;
-position: absolute;
-top: 50%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%)
-}
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+    button.signin {
+        background: blue;
+    }
+    button.signout {
+        background: yellow;
+    }
+    input#username {
+        background: red;
+        border-radius:5px !important;
+    }
