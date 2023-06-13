@@ -6,7 +6,11 @@ import { AppComponent } from './app.component';
 import { App2Component } from './app2/app2.component';
 import { App3Component } from './app3/app3.component';
 import { LoginComponent } from './login/login.component';
-
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatDividerModule} from '@angular/material/divider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +20,12 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSlideToggleModule,
+    MatInputModule,
+    MatButtonModule,
+    MatIconModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
